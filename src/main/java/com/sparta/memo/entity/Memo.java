@@ -17,4 +17,10 @@ public class Memo {
         this.username = requestDto.getUsername();
         this.contents = requestDto.getContents();
     }
+
+    public void update(MemoRequestDto requestDto) {
+        //수정할 내용 : username, contents
+        this.username = requestDto.getUsername();
+        this.contents = requestDto.getContents();
+    }
 }
